@@ -1,4 +1,4 @@
+# PLAYING A MP3 FILE USING A MODULE PYTHON
 import playsound
-print('Playing right now the MP3 file!')
-playsound.playsound('file_example_MP3_700KB.mp3')
-
+print('The MP3 file is playing right now!')
+playsound.playsound('ex21.mp3')
