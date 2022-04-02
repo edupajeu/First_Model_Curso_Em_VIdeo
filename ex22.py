@@ -1,10 +1,10 @@
 # PROGRAM TO SHOW STRING MODIFICATION
-name = str(input('Enter your full name: '))
+name = str(input('Enter your full name: ')).strip()
 upper = name.upper()
 lower = name.lower()
 length = name.replace(" ", "")
 first = name.split()
 print('Your name in uppercase: {}'.format(upper))
 print('Your name in lowercase: {}'.format(lower))
-print('The length of your name without spaces: {}'.format(len(length)))
-print('The length of your first name: {}'.format(len(first[0])))
+print('The number of letters in your name: {}'.format(len(length)))
+print('Your first name is " {} " and the length of your first name is " {} " '.format(first[0], len(first[0])))
